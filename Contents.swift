@@ -11,6 +11,7 @@ while turnCounter <= 30 {
     }
     turnCounter += 1
 }
+
 print(multiplesOfOddNumbers)
 
 // 2. შექმენით String ტიპის ცვლადი და ციკლის გამოყენებით შემოაბრუნეთ ის, მაგ: თუ გვაქვს “Test” უნდა მივიღოთ “tseT”
@@ -24,39 +25,36 @@ print(reversedWord)
 
 // 3. while loop-ისა და switch statement-ის გამოყენებით შექმენით უსასრულო შუქნიშანი, რომელიც ბეჭდავს შემდეგნაირად. "🔴->🌕->🟢->🔴->🌕..."
 
-/*
-var trafficLightColors = 0
-while true {
-    switch trafficLightColors % 3 {
-    case 0:
-        print("🔴")
-    case 1:
-        print("🌕")
-    case 2:
-        print("🟢")
-    default:
-        break
-    }
-    trafficLightColors += 1
-}
-*/
+//var trafficLightColors = 0
+//while true {
+//    switch trafficLightColors % 3 {
+//    case 0:
+//        print("🔴")
+//    case 1:
+//        print("🌕")
+//    case 2:
+//        print("🟢")
+//    default:
+//        break
+//    }
+//    trafficLightColors += 1
+//}
 
 // 4. Taylor Swift-ის კონცერტის ბილეთები იყიდება, თუმცა რაოდენობა ძალიან შეზღუდულია. While loop-ის მეშვეობით შექმენით ბილეთების გაყიდვის სიმულაცია და ყოველ გაყიდულ ბილეთზე დაბეჭდეთ “ბილეთი გაყიდულია, დარჩენილია მხოლოდ X რაოდენობა”, მანამ სანამ ბილეთების რაოდენობა მიაღწევს 0-ს, რის შემდეგაც ბეჭდავთ - “ყველა ბილეთი გაყიდულია გელოდებით კონცერტზე”
-/*
-var totalNumberOfTickets = 100
 
-while totalNumberOfTickets >= 0 {
-    switch totalNumberOfTickets {
-    case 1...100:
-        print("დარჩენილია მხოლოდ \(totalNumberOfTickets) რაოდენობა")
-    case 0:
-        print("ყველა ბილეთი გაყიდულია გელოდებით კონცერტზე")
-    default:
-        print("ამ საიტზე ტეილოს სვიფტის ბილეთები არ გაიყიდება!")
-    }
-    totalNumberOfTickets -= 1
-}
-*/
+//var totalNumberOfTickets = 100
+//
+//while totalNumberOfTickets >= 0 {
+//    switch totalNumberOfTickets {
+//    case 1...100:
+//        print("დარჩენილია მხოლოდ \(totalNumberOfTickets) რაოდენობა")
+//    case 0:
+//        print("ყველა ბილეთი გაყიდულია გელოდებით კონცერტზე")
+//    default:
+//        print("ამ საიტზე ტეილოს სვიფტის ბილეთები არ გაიყიდება!")
+//    }
+//    totalNumberOfTickets -= 1
+//}
 
 // 5.შექმენით array, შეავსეთ ისინი ელემენტებით. შეამოწმეთ და დაბეჭდეთ: "array-ში ყველა ელემენტი განსხვავებულია" ან "array შეიცავს მსგავს ელემენტებს"  (array-ს ტიპს არაქვს მნიშვნელობა.)
 
